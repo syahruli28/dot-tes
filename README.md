@@ -1,9 +1,13 @@
 ## Konfigurasi Awal (Instalasi) Sprint1
 
-install dependencies composer dengan perintah berikut : `composer install`
-install dependencies npm dan run dev dengan perintah berikut : `npm install && npm run dev`
-publish konfigurasi rajaongkir : `php artisan vendor:publish --provider="Kavist\RajaOngkir\Providers\LaravelServiceProvider"`
-jalankan file migrasi : `php artisan migrate`
+> install dependencies composer dengan perintah berikut :
+`composer install`
+> install dependencies npm dan run dev dengan perintah berikut : 
+`npm install && npm run dev`
+> publish konfigurasi rajaongkir : 
+`php artisan vendor:publish --provider="Kavist\RajaOngkir\Providers\LaravelServiceProvider"`
+> jalankan file migrasi :
+`php artisan migrate`
 
 ## Penggunaan API Cek Kota atau Provinsi
 
