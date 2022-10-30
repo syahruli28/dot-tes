@@ -9,10 +9,10 @@
 - publish konfigurasi rajaongkir : 
 `php artisan vendor:publish --provider="Kavist\RajaOngkir\Providers\LaravelServiceProvider"`
 
+- jalankan Mysql(XAMP/LAMP/etc) lalu buat db baru dengan nama db_dot_tes
+
 - jalankan file migrasi :
 `php artisan migrate`
-
-- jalankan Mysql(XAMP/LAMP/etc) 
 
 - jalankan servernya :
 `php artisan serve`
