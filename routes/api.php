@@ -3,6 +3,7 @@
 use App\Http\Controllers\API\CekKotaController;
 use App\Http\Controllers\API\CekProvinsiController;
 use App\Http\Controllers\API\AuthController;
+use App\Http\Controllers\RajaOngkirController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -29,8 +30,8 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
 });
 
 
-
-
+// jalankan hanya 1 kali, jika tb provinsi dan kota masih kosong
+Route::post('/todb', [RajaOngkirController::class, 'tambahKeDb']);
 
 // untuk login, untuk dapet token akses apinya
 Route::post('/login', [AuthController::class, 'login']);
