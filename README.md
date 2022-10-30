@@ -18,3 +18,8 @@
    `[GET] http://localhost:8000/api/search/city/{id}`
 2. Cek Provinsi
    `[GET] http://localhost:8000/api/search/provinces/{id}`
+   
+   
+## Preview Hasil Script1   
+   
+![image](https://user-images.githubusercontent.com/59794929/198875089-a4d0db2a-5ac5-4298-ba03-ea90498847d9.png)
