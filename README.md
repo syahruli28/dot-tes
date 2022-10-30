@@ -1,4 +1,4 @@
-## Konfigurasi Awal (Instalasi) Sprint1
+## Konfigurasi Awal (Instalasi) Sprint2
 
 - install dependencies composer dengan perintah berikut :
 `composer install`
@@ -36,7 +36,7 @@
    `[GET] http://localhost:8000/api/search/provinces/{id}` dengan mengirimkan bearer token dengan token dari login
    
    
-## Preview Hasil Script1 
+## Preview Hasil Script2
 
 ![image](https://user-images.githubusercontent.com/59794929/198876164-dc98af6e-e579-44ab-88df-2f3be1c005bb.png)
 
