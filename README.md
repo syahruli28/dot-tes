@@ -12,6 +12,14 @@
 - jalankan file migrasi :
 `php artisan migrate`
 
+- jalankan Mysql(XAMP/LAMP/etc) 
+
+- jalankan servernya :
+`php artisan serve`
+
+- masukan data provinsi dan kota dari rajaongkir ke DB
+`[GET] http://localhost:8000/api/todb`
+
 ## Penggunaan API Cek Kota atau Provinsi
 
 1. Cek Kota
